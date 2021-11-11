@@ -38,7 +38,7 @@
 }
 
 .topline:hover,
-.topline :focus {
+.topline:focus {
   color: var(--accent-color);
 }
 .menu-link {
@@ -48,8 +48,8 @@
   letter-spacing: 0.02em;
   color: #757575;
 }
-.menu-link :hover,
-.menu-link :focus {
+.menu-link:hover,
+.menu-link:focus {
   color: var(--accent-color);
 }
 
@@ -63,6 +63,8 @@
 .section {
   background-color: #2f303a;
 }
+/*------------------ main---------------------------*/
+
 .button-link {
   font-weight: bold;
   font-size: 16px;
@@ -70,7 +72,6 @@
   letter-spacing: 0.06em;
   color: var(--primary-text-color);
 }
-/*------------------ main---------------------------*/
 .btn {
   background-color: #2196f3;
 }
@@ -109,7 +110,7 @@
   letter-spacing: 0.03em;
   color: #757575;
 }
-/*---------------------footer-------------------- */
+/*-------------- foote------------- */
 .footer-line {
   color: var(--primary-text-color);
   font-weight: bold;
@@ -134,11 +135,97 @@
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
-.adds-link :hover,
-.adds-link :focus {
+.adds-link:hover,
+.adds-link:focus {
   color: var(--accent-color);
 }
-.add-link :hover,
-.add-link :focus {
+.add-link:hover,
+.add-link:focus {
   color: var(--accent-color);
 }
+
+/*----------------- portfolio----------------------------- */
+
+/*------------------- head-------------------------- */
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+.header {
+  background-color: var(--primary-text-color);
+}
+.head-link {
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--header-color);
+}
+.headlink {
+  color: var(--accent-color);
+}
+.nav-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--second-text-color);
+}
+.navlink {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--accent-color);
+}
+.hea-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--accent-color);
+}
+.hea-link:hover,
+.hea-link :focus {
+  color: var(--accent-color);
+}
+.but-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  color: var(--second-text-color);
+}
+.btt {
+  background-color: #f5f4fa;
+}
+.sect-link {
+  background-color: #e5e5e5;
+}
+.btt:hover,
+.btt:focus {
+  color: var(--primary-text-color);
+  background-color: var(--accent-color);
+}
+/*------------------ main----------------- */
+.main-link {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--second-text-color);
+}
+.direct-link {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+/* -----------------footer -----------------*/
