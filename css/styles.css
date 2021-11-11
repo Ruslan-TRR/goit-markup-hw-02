@@ -1,6 +1,144 @@
-body {
-  font-family: "Roboto", sans-serif;
+.body {
+  font-family: "Roboto" sans-serif;
+  color: #757575;
 }
-.sait-nav:hover
- {color #2196f3;}
-    
+
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+
+:root {
+  --header-color: #000000;
+  --primary-text-color: #ffffff;
+  --second-text-color: #212121;
+  --accent-color: #2196f3;
+}
+/*--------------------- header-------------------- */
+.top-line-link {
+  color: #2196f3;
+}
+.top-line {
+  color: var(--header-color);
+
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.topline {
+  color: var(--header-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.topline:hover,
+.topline :focus {
+  color: var(--accent-color);
+}
+.menu-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14px;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+.menu-link :hover,
+.menu-link :focus {
+  color: var(--accent-color);
+}
+
+.cap-link {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.5;
+  letter-spacing: 0.06em;
+  color: var(--primary-text-color);
+}
+.section {
+  background-color: #2f303a;
+}
+.button-link {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  color: var(--primary-text-color);
+}
+/*------------------ main---------------------------*/
+.btn {
+  background-color: #2196f3;
+}
+.main-link {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14px;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.content-link {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.mainlink {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.team-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  color: var(--second-text-color);
+}
+.position-link {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.18px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+/*---------------------footer-------------------- */
+.footer-line {
+  color: var(--primary-text-color);
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.footer-line-link {
+  color: var(--accent-color);
+}
+.adds-link {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+.add-link {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.adds-link :hover,
+.adds-link :focus {
+  color: var(--accent-color);
+}
+.add-link :hover,
+.add-link :focus {
+  color: var(--accent-color);
+}
