@@ -1,5 +1,5 @@
 .body {
-  font-family: "Roboto" sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #757575;
 }
 
@@ -22,11 +22,18 @@
 }
 .top-line {
   color: var(--header-color);
-
+  font-family: Raleway;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+}
+.header-line {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--accent-color);
 }
 
 .topline {
@@ -42,6 +49,7 @@
   color: var(--accent-color);
 }
 .menu-link {
+  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14px;
@@ -54,10 +62,12 @@
 }
 
 .cap-link {
+  font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.5;
   letter-spacing: 0.06em;
+  text-transform: uppercase;
   color: var(--primary-text-color);
 }
 .section {
@@ -80,6 +90,7 @@
   font-size: 14px;
   line-height: 1.14px;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
   color: #212121;
 }
 .content-link {
@@ -113,6 +124,7 @@
 /*-------------- foote------------- */
 .footer-line {
   color: var(--primary-text-color);
+  font-family: Raleway;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
@@ -120,6 +132,9 @@
 }
 .footer-line-link {
   color: var(--accent-color);
+}
+.address-link {
+  font-style: normal;
 }
 .adds-link {
   font-weight: normal;
@@ -131,7 +146,7 @@
 .add-link {
   font-weight: normal;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
@@ -157,6 +172,7 @@
   background-color: var(--primary-text-color);
 }
 .head-link {
+  font-family: Raleway;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
@@ -205,9 +221,7 @@
 .btt {
   background-color: #f5f4fa;
 }
-.sect-link {
-  background-color: #e5e5e5;
-}
+
 .btt:hover,
 .btt:focus {
   color: var(--primary-text-color);
